@@ -1,10 +1,10 @@
-# 🔍 AI-Powered Research Assistant
+# AI-Powered Research Assistant
 
 This project is an advanced, AI-powered research assistant that automates the process of retrieving, summarizing, and interpreting academic literature from multiple sources. It helps users get paper summaries, extract key techniques, and generate structured research overviews—all through an interactive chatbot interface.
 
 ---
 
-## 🚀 Features
+## Features
 
 * **Multi-Source Paper Search:**
   Searches Semantic Scholar, arXiv, CrossRef, and Google (via SERP API) for the latest papers and research material on any topic.
@@ -23,19 +23,19 @@ This project is an advanced, AI-powered research assistant that automates the pr
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
-| Component    | Technology                                  |
-| ------------ | ------------------------------------------- |
-| 🧠 LLM       | Gemini via `langchain_google_genai`         |
-| 📡 APIs      | Semantic Scholar, arXiv, CrossRef, SERP API |
-| 💬 Interface | Gradio Blocks & ChatInterface               |
-| 🛠 Agent     | LangChain Tools + Zero-Shot Agent           |
-| 🌐 Language  | Python 3                                    |
+| Component | Technology                                  |
+| --------- | ------------------------------------------- |
+| LLM       | Gemini via `langchain_google_genai`         |
+| APIs      | Semantic Scholar, arXiv, CrossRef, SERP API |
+| Interface | Gradio Blocks & ChatInterface               |
+| Agent     | LangChain Tools + Zero-Shot Agent           |
+| Language  | Python 3                                    |
 
 ---
 
-## 🧪 How It Works
+## How It Works
 
 1. **User enters a research topic**
 2. **The system fetches papers** using APIs (Semantic Scholar, arXiv, CrossRef)
@@ -45,9 +45,9 @@ This project is an advanced, AI-powered research assistant that automates the pr
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
-> **Note:** You must provide valid API keys for Google Generative AI and SERP API.
+> Note: You must provide valid API keys for Google Generative AI and SERP API.
 
 1. **Install dependencies**
 
@@ -70,7 +70,7 @@ python app.py
 
 ---
 
-## 📸 UI Preview
+## UI Preview
 
 * Search for any research topic
 * View fetched papers from multiple databases
@@ -79,7 +79,7 @@ python app.py
 
 ---
 
-## 📌 Use Cases
+## Use Cases
 
 * Literature review for academic papers
 * Quick understanding of trending research areas
@@ -88,12 +88,12 @@ python app.py
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 Contributions, suggestions, and improvements are welcome. Please fork the repo and raise a pull request.
 
 ---
 
-## 📜 License
+## License
 
 This project is for educational and demonstrative purposes only. Not intended for commercial use.

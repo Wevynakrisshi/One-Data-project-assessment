@@ -50,7 +50,7 @@ This project is an advanced, AI-powered research assistant that automates the pr
 ## How It Works
 
 1. **User enters a research topic**
-2. **The system fetches papers** using APIs (Semantic Scholar, arXiv, CrossRef)
+2. **The system fetches papers** using APIs (Semantic Scholar, arXiv, CrossRef, SERP API)
 3. **Papers are summarized** using Gemini LLM
 4. **An academic-style overview** is generated
 5. **Users can chat** with the AI about the research topic and insights

@@ -35,6 +35,18 @@ This project is an advanced, AI-powered research assistant that automates the pr
 
 ---
 
+## Code Overview
+
+**main.py**: Contains the primary logic for the research assistant, including search, summarization, and chatbot functions.
+
+**tools.py**: Implements the functions to interact with different academic search APIs like Semantic Scholar, arXiv, and CrossRef.
+
+**agent.py**: Manages the AI agent and uses LangChain to initialize and interact with the tools and the language model.
+
+**chatbot.py**: Implements the chatbot that answers questions based on the research summary and overview.
+
+---
+
 ## How It Works
 
 1. **User enters a research topic**

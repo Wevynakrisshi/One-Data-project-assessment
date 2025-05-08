@@ -64,11 +64,13 @@ This project is an advanced, AI-powered research assistant that automates the pr
 1. **Install dependencies**
 
 ```bash
-pip install gradio langchain requests langchain_google_genai
+pip install -r requirements.txt
 ```
 
 2. **Set API keys**
 
+You'll need to obtain API keys for **Google Gemini**, **SERP API**, and others, then set them as environment variables.
+Example for Google API Key:
 ```bash
 export GOOGLE_API_KEY="your_google_api_key"
 export SERP_API_KEY="your_serp_api_key"

@@ -31,7 +31,7 @@ def search_semantic(query: str) -> str:
         url = paper.get("url", "")
         year = paper.get("year", "")
         result += f"TITLE: {title}\nAUTHORS: {authors}\nYEAR: {year}\nABSTRACT: {abstract}\nURL: {url}\n\n"
-    return result #or "No results from Semantic Scholar."
+    return result or "No results from Semantic Scholar."
 
 # 2️⃣ arXiv
 @tool
